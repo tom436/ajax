@@ -13,12 +13,15 @@
         <div>
             <h1>ask me anything</h1>
             <h2></h2>
-            <img src=""  />
+            <img src=""  onload="onImageReady()">
         </div>
         <h3 hidden>Loading...</h3>
         <input class="question" name="input" type="text" onchange="onGetAnswer(this)" placeholder="your question">
-
         <label for="input"><button >submit</button></label>
+    </section>
+    <section class="result-area">
+        <h2></h2>
+        <img src="" >
     </section>
     <script src="lib/jquery.js"></script>
     <script src="js/services/yes-no-service.js"></script>
