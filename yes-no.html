@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="css/yes-no-style.css">
+</head>
+<body>
+    <h1>yes-no</h1>
+    <section class="game">
+        
+        <div>
+            <h1>ask me anything</h1>
+            <h2></h2>
+            <img src=""  />
+        </div>
+        <h3 hidden>Loading...</h3>
+        <input class="question" name="input" type="text" onchange="onGetAnswer(this)" placeholder="your question">
+
+        <label for="input"><button >submit</button></label>
+    </section>
+    <script src="lib/jquery.js"></script>
+    <script src="js/services/yes-no-service.js"></script>
+    <script src="js/yes-no-controller.js"></script>
+</body>
+</html>

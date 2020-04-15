@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(241, 178, 178);
+}
+
+
+.answer-container{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.answer-container img{
+
+    display: block;
+    margin: 10px auto;
+}
+
+
+.answer-container h2{
+    text-transform: capitalize;
+}
+
+
+.teams-container{
+    background-color: rgb(189, 201, 120);
+    padding: 20px;
+    text-align: center;
+}
+
+.teams-container ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teams-container ul li {
+    list-style: none;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+

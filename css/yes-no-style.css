@@ -1,0 +1,35 @@
+
+.game {
+    background-color: #3bac7d;
+    padding: 20px;
+    text-align: center;
+}
+.game h1{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.game input{
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0;
+}
+.game button{
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0;
+
+    
+}
+
+.game img {
+    display: block;
+    margin: 10px auto;
+}

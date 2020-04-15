@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+}
+
+.main-header{
+    background-color: rgb(44, 38, 38);
+}
+.main-header h1{
+    color: #fff;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.adress-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.person{
+    flex-basis: 30%;
+    border: 1px solid; 
+    margin: 10px auto;
+}
+.person img{
+    
+    border: 1px solid; 
+}
+.person h1{
+    background-color: rgb(212, 212, 212); 
+}
+.info{
+    display: flex;
+    margin:5px auto;
+
+}
